@@ -1,0 +1,533 @@
+@import url('https://wwwprodpeiwei.blob.core.windows.net/assets-28021/main-1.css');
+@import url('https://wwwprodpeiwei.blob.core.windows.net/assets-28021/main-2.css');
+@import url('https://wwwprodpeiwei.blob.core.windows.net/assets-28021/main-3.css');
+
+@font-face {
+  font-family: bentonsanscond;
+  src: url(https://mediaprodpeiwei.blob.core.windows.net/contentimg/fonts/BentonSansCondBold.ttf);
+}
+@font-face {
+  font-family: bentonsanscond-italic;
+  src: url(https://mediaprodpeiwei.blob.core.windows.net/contentimg/fonts/BentonSansCondBoldItalic.otf);
+}
+@font-face {
+  font-family: clarendon;
+  src: url(https://mediaprodpeiwei.blob.core.windows.net/contentimg/fonts/ClarendonBTRoman.ttf);
+}
+@font-face {
+  font-family: clarendonLt;
+  src: url(https://mediaprodpeiwei.blob.core.windows.net/contentimg/fonts/ClarendonLtBTLight.ttf);
+}
+@font-face {
+  font-family: nexarust;
+  src: url(https://mediaprodpeiwei.blob.core.windows.net/contentimg/fonts/NexaRustSlab-Black.otf);
+}
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+    max-width: inherit;
+}
+
+
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+header img {
+  width: 100%;
+}
+
+section {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.w100 {
+  width: 100%;
+}
+section.dishes {
+  position: relative;
+  background-image: url('../img/dish-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 65px 0px 120px;
+  background-color: #544C45;
+}
+
+.locations, .message {
+  background-color: #fff;
+}
+
+.dishes div.content,
+.message div.content {
+  text-align: center;
+}
+
+.dishes div.content h1 {
+  font-size: 55px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.dishes div.content p {
+  font-size: 26px;
+  color: #fff;
+  font-family: clarendonLt, serif;
+  margin-bottom: 100px;
+}
+
+section.message {
+  padding: 50px 200px;
+}
+
+.message div.content h1 {
+  color: #007A87;
+  font-size: 46px;
+  margin-bottom: 35px;
+}
+
+.message div.content p {
+  font-size: 26px;
+  line-height: 34px;
+  color: #493830;
+  font-family: clarendonLt, serif;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 70px;
+  min-height: 460px;
+}
+
+.noodleman {
+  width: 30px;
+  height: 30px;
+  background-image: url('../img/loc-icon.png');
+  position: absolute;
+  left: 0px;
+}
+
+.selectedIcon {
+  background-image: url('../img/loc-icon-selected.png')!important;
+  background-size: cover;
+}
+
+ul.mapList {
+  list-style-type: none;
+  padding: 0px 40px;
+}
+
+ul.mapList li {
+  height: 200px;
+  border-bottom: 1px solid #979797;
+  display: flex;
+  align-items: center;
+}
+
+ul.mapList li:last-child {
+  border-bottom: none;
+}
+
+li div.singleLocation {
+  width: 100%;
+}
+section.section3 {
+  background-image: url('../img/section3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 90px 0px 100px;
+  width: 100%;
+}
+.customize {
+  overflow: hidden;
+}
+
+.customize h1 {
+  color: #007A87;
+  font-size: 46px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.customize p {
+  font-size: 26px;
+  line-height: 34px;
+  color: #493830;
+  font-family: clarendonLt, serif;
+  text-align: center;
+  max-width: 730px;
+  margin: 0 auto;
+  padding-bottom: 75px;
+}
+
+.custom-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-item img {
+  height: 200px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.custom-item p {
+  font-family: 'Benton',Arial,sans-serif;
+  color: #565250;
+  font-size: 20px;
+  text-align: center;
+}
+/*.carousel {
+}
+.carousel-item {
+  display: inline-block;
+}*/
+
+.info {
+  float: left;
+  padding-left: 40px;
+  position: relative;
+}
+
+.cta {
+  float: right;
+}
+
+.info .storename {
+  font-family: 'Benton',Arial,sans-serif;
+  font-size: 22px;
+  color: #007A87;
+}
+
+.info .address {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #797674;
+  line-height: 18px;
+  padding: 10px 0px;
+}
+
+.info .details {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #797674;
+  line-height: 18px;
+}
+
+.cta a button {
+  width: 151px;
+  height: 32px;
+  background-color: #EA2839;
+  border-radius: 0px;
+  border: none;
+  color: #fff;
+  font-family: nexarust, serif;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 9px 0;
+}
+
+.cta .orderByPhone {
+  font-family: nexarust, serif;
+  color: #007A87;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0px 8px;
+}
+.cta .phone{
+  display: flex;
+  justify-content: center;
+}
+.cta .phone a {
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  font-size: 18px;
+  color: #797674;
+  text-decoration: none;
+}
+
+p.legal {
+  font-family:arial,serif;
+  font-size:14px;
+  line-height:18px!important;
+  color:#797674;
+  margin:0px auto 0;
+  padding:35px 35px;
+  text-align:left;
+  width:100%;
+  background-color: #fff;
+}
+
+.item-wrapper {
+
+}
+.item-wrapper h3 {
+  color: #fff;
+  font-size: 26px;
+  font-family: 'Benton',Arial,sans-serif;
+}
+.item-wrapper p {
+  max-width: 288px;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+.list {
+  height: 600px;
+  overflow: scroll;
+}
+.map {
+  padding: 0;
+}
+
+#map {
+  height: 600px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (max-width: 992px) {
+    .list {
+      overflow: visible;
+      height: inherit;
+    }
+    section.dishes .content,
+    section.section3 .customize,
+    section.message {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
