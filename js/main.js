@@ -16,8 +16,6 @@ $(document).ready(function(){
               '</div>' +
             '</div></li>'
           );
-          console.log(value.url);
-          console.log(value.directions);
       })
   });
 

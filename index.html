@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
@@ -11,11 +11,14 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body> -->
+
+        <!-- <link rel="stylesheet" href="css/main.css"> -->
+        <link rel="stylesheet" href="{{ contentAsset('5-dollar-lunch/css/main2.css')}}">
 
         <section>
           <header>
-            <img src="img/hero.jpg" alt="Houston Only - $5 Lunch Every day, 11am -  1pm!*">
+            <img ng-src="{{ contentAsset('5-dollar-lunch/img/hero2.png')}}" alt="Houston Only - $5 Lunch Every day, 11am -  1pm!*">
           </header>
         </section>
 
@@ -28,28 +31,28 @@
             <div class="row">
               <div class="col-md-4 col-sm-6 item">
                 <div class="item-wrapper">
-                  <img src="img/thai-dynamite.png" alt="">
+                  <img ng-src="{{ contentAsset('5-dollar-lunch/img/thai-dynamite.png') }}" alt="">
                   <h3>THAI DYNAMITE</h3>
                   <p>Thai basil, scallions, red bell peppers and julienne carrots, wok-fired in a Sriracha chile soy sauce and topped with a fresh lime wedge.</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 item">
                 <div class="item-wrapper">
-                  <img src="img/korean-spicy.png" alt="">
+                  <img ng-src="{{ contentAsset('5-dollar-lunch/img/korean-spicy.png') }}" alt="">
                   <h3>KOREAN SPICY</h3>
                   <p>Red bell peppers, bean sprouts and scallions, wok-fired in a sweet and spicy Korean bulgogi sauce.</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 item">
                 <div class="item-wrapper">
-                  <img src="img/dan-dan-noodles.png" alt="">
+                  <img ng-src="{{ contentAsset('5-dollar-lunch/img/dan-dan-noodles.png') }}" alt="">
                   <h3>DAN DAN NOODLES</h3>
                   <p>White meat chicken, garlic, and scallions, wok-seared in a chile soy sauce and served over steamed noodles. Finished with steamed bean sprouts and fresh julienne cucumbers.</p>
                 </div>
               </div>
               <div class="hidden-md hidden-lg col-sm-6 item">
                 <div class="item-wrapper">
-                  <img src="img/sweet-sour.png" alt="">
+                  <img ng-src="{{ contentAsset('5-dollar-lunch/img/sweet-sour.png') }}" alt="">
                   <h3>SWEET &amp; SOUR</h3>
                   <p>Pineapple, red bell peppers, snap peas and fresh ginger, wok-tossed in our classic sweet and sour sauce.</p>
                 </div>
@@ -58,14 +61,14 @@
             <div class="row">
               <div class="col-md-4 hidden-sm hidden-xs item">
                 <div class="item-wrapper">
-                  <img src="img/sweet-sour.png" alt="">
+                  <img ng-src="{{ contentAsset('5-dollar-lunch/img/sweet-sour.png') }}" alt="">
                   <h3>SWEET &amp; SOUR</h3>
                   <p>Pineapple, red bell peppers, snap peas and fresh ginger, wok-tossed in our classic sweet and sour sauce.</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-12 item">
                 <div class="item-wrapper">
-                  <img src="img/mango-california-roll.png" alt="">
+                  <img ng-src="{{ contentAsset('5-dollar-lunch/img/mango-california-roll.png') }}" alt="">
                   <h3>MANGO CALIFORNIA ROLL</h3>
                   <p>Premium Pacific Krab, mango, cucumbers and scallions, hand-rolled in premium sushi rice. Topped with toasted sesame seeds.</p>
                 </div>
@@ -77,30 +80,30 @@
         <section class="section3 container">
           <div class="customize">
             <h1>CUSTOMIZE YOUR DISH</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu ex, lobortis vitae velit volutpat, pretium porttitor turpis.</p>
+            <p>Our base options allow for a customized meal with every visit. Choose from any of the following grains or greens to make your lunch, well, yours.</p>
             <div class="row">
               <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="custom-item">
-                  <img src="img/thai-dynamite.png" alt="">
-                  <p>STEAMED WHITE RICE</p>
+                  <img ng-src="{{ contentAsset('5-dollar-lunch/img/WhiteRice.png') }}" alt="">
+                  <p>STEAMED<br />WHITE RICE</p>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="custom-item">
-                  <img src="img/korean-spicy.png" alt="">
-                  <p>STEAMED BROWN RICE</p>
+                  <img ng-src="{{ contentAsset('5-dollar-lunch/img/BrownRice.png') }}" alt="">
+                  <p>STEAMED<br />BROWN RICE</p>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="custom-item">
-                  <img src="img/dan-dan-noodles.png" alt="">
-                  <p>ICEBERG LETTUCE CUPS</p>
+                  <img ng-src="{{ contentAsset('5-dollar-lunch/img/IcebergLettuceCups.png') }}" alt="">
+                  <p>ICEBERG<br />LETTUCE CUPS</p>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="custom-item">
-                  <img src="img/mango-california-roll.png" alt="">
-                  <p>HERITAGE MIXED GREEN</p>
+                  <img ng-src="{{ contentAsset('5-dollar-lunch/img/HeritageMixedGreens.png') }}" alt="">
+                  <p>HERITAGE<br />MIXED GREEN</p>
                 </div>
               </div>
             </div>
@@ -109,8 +112,8 @@
 
         <section class="message">
           <div class="content">
-            <h1>PARTICIPATING HOUSTON LOCAITONS</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu ex, lobortis vitae velit</p>
+            <h1>PARTICIPATING HOUSTON LOCATIONS</h1>
+            <p>View the list below to find a participating Pei Wei near you!</p>
           </div>
         </section>
 
@@ -118,10 +121,412 @@
           <div class="container w100">
             <div class="row">
               <div class="col-md-6 col-sm-12 list">
-                <ul class="mapList"></ul>
+                <ul class="mapList">
+                    <li id="store-31">
+                        <div class="singleLocation clearfix">
+                            <div class="info">
+                                <div class="noodleman"></div>
+                                <div class="storename">Shenandoah</div>
+                                <div class="address">19075 IH 45 S Suite 480
+                                    <br>Shenandoah, TX 77385</div>
+                                <div class="details"><a href="/texas/31-shenandoah">Restaurant Details</a>
+                                </div>
+                            </div>
+                            <div class="cta">
+                                <a href="https://www.google.com/maps/dir//Pei+Wei,+19075+I-45+%23480,+Shenandoah,+TX+77385/@30.1826863,-95.4533763,17z/" target="_blank">
+                                    <button class="directions">DIRECTIONS</button>
+                                </a>
+                                <div class="orderByPhone">ORDER BY PHONE</div>
+                                <div class="phone"><a href="tel:+1-936-271-9217">(936) 271-9217</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="store-33">
+                        <div class="singleLocation clearfix">
+                            <div class="info">
+                                <div class="noodleman"></div>
+                                <div class="storename">Champions</div>
+                                <div class="address">5203 FM 1960 W Suite E
+                                    <br>Houston, TX 77069</div>
+                                <div class="details"><a href="/texas/33-champions">Restaurant Details</a>
+                                </div>
+                            </div>
+                            <div class="cta">
+                                <a href="https://www.google.com/maps/dir//Pei+Wei,+5203+Farm+to+Market+1960+Rd+W+e,+Houston,+TX+77069/@29.9811469,-95.5109452,17z/" target="_blank">
+                                    <button class="directions">DIRECTIONS</button>
+                                </a>
+                                <div class="orderByPhone">ORDER BY PHONE</div>
+                                <div class="phone"><a href="tel:+1-281-885-5430">(281) 885-5430</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="store-50">
+                        <div class="singleLocation clearfix">
+                            <div class="info">
+                                <div class="noodleman"></div>
+                                <div class="storename">Kingwood</div>
+                                <div class="address">702 Kingwood Dr.
+                                    <br>Kingwood, TX 77339</div>
+                                <div class="details"><a href="/texas/50-kingwood">Restaurant Details</a>
+                                </div>
+                            </div>
+                            <div class="cta">
+                                <a href="https://www.google.com/maps/dir//702+Kingwood+Dr,+Kingwood,+TX+77339/@30.0507603,-95.2474481,17z/" target="_blank">
+                                    <button class="directions">DIRECTIONS</button>
+                                </a>
+                                <div class="orderByPhone">ORDER BY PHONE</div>
+                                <div class="phone"><a href="tel:+1-281-318-2877">(281) 318-2877</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="store-59">
+                        <div class="singleLocation clearfix">
+                            <div class="info">
+                                <div class="noodleman"></div>
+                                <div class="storename">Windermere</div>
+                                <div class="address">12020 FM 1960 W
+                                    <br>Houston, TX 77065</div>
+                                <div class="details"><a href="/texas/59-windermere">Restaurant Details</a>
+                                </div>
+                            </div>
+                            <div class="cta">
+                                <a href="https://www.google.com/maps/dir//Pei+Wei,+12020,+12020+FM+1960,+Houston,+TX+77065/@29.9246631,-95.6009009,17z/" target="_blank">
+                                    <button class="directions">DIRECTIONS</button>
+                                </a>
+                                <div class="orderByPhone">ORDER BY PHONE</div>
+                                <div class="phone"><a href="tel:+1-281-571-4990">(281) 571-4990</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="store-242">
+                        <div class="singleLocation clearfix">
+                            <div class="info">
+                                <div class="noodleman"></div>
+                                <div class="storename">The Woodlands</div>
+                                <div class="address">10868 Kuykendahl Rd. Suite E
+                                    <br>The Woodlands, TX 77381</div>
+                                <div class="details"><a href="/texas/242-woodlands">Restaurant Details</a>
+                                </div>
+                            </div>
+                            <div class="cta">
+                                <a href="https://www.google.com/maps/dir//Pei+Wei,+10868+Kuykendahl+Rd,+The+Woodlands,+TX+77381/@30.1772038,-95.5373031,17z/" target="_blank">
+                                    <button class="directions">DIRECTIONS</button>
+                                </a>
+                                <div class="orderByPhone">ORDER BY PHONE</div>
+                                <div class="phone"><a href="tel:+1-281-203-3080">(281) 203-3080</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="store-266">
+                        <div class="singleLocation clearfix">
+                            <div class="info">
+                                <div class="noodleman"></div>
+                                <div class="storename">Vintage Marketplace</div>
+                                <div class="address">10115 Louetta Road, Suite 100
+                                    <br>Houston, TX 77070</div>
+                                <div class="details"><a href="/texas/266-vintage">Restaurant Details</a>
+                                </div>
+                            </div>
+                            <div class="cta">
+                                <a href="https://www.google.com/maps/dir//Pei+Wei,+10115+Louetta+Rd+%23100,+Houston,+TX+77070/@29.9999386,-95.563502,17z/" target="_blank">
+                                    <button class="directions">DIRECTIONS</button>
+                                </a>
+                                <div class="orderByPhone">ORDER BY PHONE</div>
+                                <div class="phone"><a href="tel:+1-281-51-0450">(281)251-0450</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="store-270">
+                        <div class="singleLocation clearfix">
+                            <div class="info">
+                                <div class="noodleman"></div>
+                                <div class="storename">Fairfield Town Center</div>
+                                <div class="address">28902 Highway 290, Suite J-05
+                                    <br>Cypress, TX 77433</div>
+                                <div class="details"><a href="/texas/270-fairfield">Restaurant Details</a>
+                                </div>
+                            </div>
+                            <div class="cta">
+                                <a href="https://www.google.com/maps/dir//Pei+Wei,+28902+Highway+290,+Suite+J-05,+Cypress,+TX+77433/@29.9926191,-95.7514959,17z/" target="_blank">
+                                    <button class="directions">DIRECTIONS</button>
+                                </a>
+                                <div class="orderByPhone">ORDER BY PHONE</div>
+                                <div class="phone"><a href="tel:+1-281-758-4154">(281) 758-4154</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="store-54">
+                        <div class="singleLocation clearfix">
+                            <div class="info">
+                                <div class="noodleman"></div>
+                                <div class="storename">Central Houston</div>
+                                <div class="address">1005 Waugh Dr. Suite A
+                                    <br>Houston, TX 77019</div>
+                                <div class="details"><a href="/texas/54-central">Restaurant Details</a>
+                                </div>
+                            </div>
+                            <div class="cta">
+                                <a href="https://www.google.com/maps/dir//Pei+Wei,+1005+Waugh+Dr+A,+Houston,+TX+77019/@29.7564325,-95.3998954,17z/" target="_blank">
+                                    <button class="directions">DIRECTIONS</button>
+                                </a>
+                                <div class="orderByPhone">ORDER BY PHONE</div>
+                                <div class="phone"><a href="tel:+1-713-353-7366">(713) 353-7366</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="store-58">
+                        <div class="singleLocation clearfix">
+                            <div class="info">
+                                <div class="noodleman"></div>
+                                <div class="storename">Clearlake</div>
+                                <div class="address">19411-A Gulf Freeway
+                                    <br>Webster, TX 77598</div>
+                                <div class="details"><a href="/texas/58-clearlake">Restaurant Details</a>
+                                </div>
+                            </div>
+                            <div class="cta">
+                                <a href="https://www.google.com/maps/dir//Pei+Wei,+19411-A+Gulf+Freeway,+Webster,+TX+77598/@29.5442823,-95.1451413,17z/" target="_blank">
+                                    <button class="directions">DIRECTIONS</button>
+                                </a>
+                                <div class="orderByPhone">ORDER BY PHONE</div>
+                                <div class="phone"><a href="tel:+1-281-554-9876">(281) 554-9876</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="store-175">
+                        <div class="singleLocation clearfix">
+                            <div class="info">
+                                <div class="noodleman"></div>
+                                <div class="storename">Town Center Pearland</div>
+                                <div class="address">11302 Broadway Suite 102
+                                    <br>Pearland, TX 77584</div>
+                                <div class="details"><a href="/texas/175-town">Restaurant Details</a>
+                                </div>
+                            </div>
+                            <div class="cta">
+                                <a href="https://www.google.com/maps/dir//Pei+Wei,+11302+Broadway+St+%23102,+Pearland,+TX+77584/@29.5551219,-95.3969099,17z/" target="_blank">
+                                    <button class="directions">DIRECTIONS</button>
+                                </a>
+                                <div class="orderByPhone">ORDER BY PHONE</div>
+                                <div class="phone"><a href="tel:+1-713-436-3840">(713) 436-3840</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
               </div>
-              <div class="col-md-6 map hidden-sm hidden-xs">
-                <div id="map"></div>
+              <div class="col-md-6 col-sm-12 list">
+                <ul class="mapList">
+                  <li id="store-177">
+                      <div class="singleLocation clearfix">
+                          <div class="info">
+                              <div class="noodleman"></div>
+                              <div class="storename">Beaumont</div>
+                              <div class="address">3050 Dowlen Rd. Suite N
+                                  <br>Beaumont, TX 77706</div>
+                              <div class="details"><a href="/texas/177-beaumont">Restaurant Details</a>
+                              </div>
+                          </div>
+                          <div class="cta">
+                              <a href="https://www.google.com/maps/dir//Pei+Wei,+3050+Dowlen+Rd,+Beaumont,+TX+77706/@30.1072119,-94.1699546,17z/" target="_blank">
+                                  <button class="directions">DIRECTIONS</button>
+                              </a>
+                              <div class="orderByPhone">ORDER BY PHONE</div>
+                              <div class="phone"><a href="tel:+1-409-866-0620">(409) 866-0620</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                  <li id="store-205">
+                      <div class="singleLocation clearfix">
+                          <div class="info">
+                              <div class="noodleman"></div>
+                              <div class="storename">Pasadena</div>
+                              <div class="address">5932 Fairmont Pkwy. Suite 150
+                                  <br>Pasadena, TX 77505</div>
+                              <div class="details"><a href="/texas/205-pasadena">Restaurant Details</a>
+                              </div>
+                          </div>
+                          <div class="cta">
+                              <a href="https://www.google.com/maps/dir//Pei+Wei,+5932+Fairmont+Pkwy+%23150,+Pasadena,+TX+77505/@29.6491396,-95.1534339,17z/" target="_blank">
+                                  <button class="directions">DIRECTIONS</button>
+                              </a>
+                              <div class="orderByPhone">ORDER BY PHONE</div>
+                              <div class="phone"><a href="tel:+1-281-487-2226">(281) 487-2226</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                  <li id="store-265">
+                      <div class="singleLocation clearfix">
+                          <div class="info">
+                              <div class="noodleman"></div>
+                              <div class="storename">Pearland Parkway</div>
+                              <div class="address">2630 Pearland Parkway, Suite 130
+                                  <br>Pearland, TX 77581</div>
+                              <div class="details"><a href="/texas/265-pearland">Restaurant Details</a>
+                              </div>
+                          </div>
+                          <div class="cta">
+                              <a href="https://www.google.com/maps/dir//Pei+Wei,+2630+Pearland+Pkwy+%23130,+Pearland,+TX+77581/@29.559,-95.2619005,17z/" target="_blank">
+                                  <button class="directions">DIRECTIONS</button>
+                              </a>
+                              <div class="orderByPhone">ORDER BY PHONE</div>
+                              <div class="phone"><a href="tel:+1-281-997-5525">(281) 997-5525</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                  <li id="store-24">
+                      <div class="singleLocation clearfix">
+                          <div class="info">
+                              <div class="noodleman"></div>
+                              <div class="storename">Plaza in the Park</div>
+                              <div class="address">5110 Buffalo Speedway Suite 100
+                                  <br>Houston, TX 77005</div>
+                              <div class="details"><a href="/texas/24-plaza">Restaurant Details</a>
+                              </div>
+                          </div>
+                          <div class="cta">
+                              <a href="https://www.google.com/maps/dir//Pei+Wei,+5110+Buffalo+Speedway+%23100,+Houston,+TX+77005/@29.7279268,-95.4642226,17z/" target="_blank">
+                                  <button class="directions">DIRECTIONS</button>
+                              </a>
+                              <div class="orderByPhone">ORDER BY PHONE</div>
+                              <div class="phone"><a href="tel:+1-713-661-0900">(713) 661-0900</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                  <li id="store-37">
+                      <div class="singleLocation clearfix">
+                          <div class="info">
+                              <div class="noodleman"></div>
+                              <div class="storename">Sugar Land</div>
+                              <div class="address">16101 Kensington Dr.
+                                  <br>Sugar Land, TX 77479</div>
+                              <div class="details"><a href="/texas/37-sugar">Restaurant Details</a>
+                              </div>
+                          </div>
+                          <div class="cta">
+                              <a href="https://www.google.com/maps/dir//Pei+Wei,+16101+Kensington+Dr,+Sugar+Land,+TX+77479/@29.5982158,-95.6280974,17z/" target="_blank">
+                                  <button class="directions">DIRECTIONS</button>
+                              </a>
+                              <div class="orderByPhone">ORDER BY PHONE</div>
+                              <div class="phone"><a href="tel:+1-281-240-1931">(281) 240-1931</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                  <li id="store-56">
+                      <div class="singleLocation clearfix">
+                          <div class="info">
+                              <div class="noodleman"></div>
+                              <div class="storename">Katy</div>
+                              <div class="address">1590 S Mason Rd. Suite A
+                                  <br>Katy, TX 77450</div>
+                              <div class="details"><a href="/texas/56-katy">Restaurant Details</a>
+                              </div>
+                          </div>
+                          <div class="cta">
+                              <a href="https://www.google.com/maps/dir//Pei+Wei,+1590+S+Mason+Rd,+Katy,+TX+77450/@29.7589217,-95.7541195,17z/" target="_blank">
+                                  <button class="directions">DIRECTIONS</button>
+                              </a>
+                              <div class="orderByPhone">ORDER BY PHONE</div>
+                              <div class="phone"><a href="tel:+1-281-392-1410">(281) 392-1410</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                  <li id="store-87">
+                      <div class="singleLocation clearfix">
+                          <div class="info">
+                              <div class="noodleman"></div>
+                              <div class="storename">College Station</div>
+                              <div class="address">980A University Dr. East Suite 4
+                                  <br>College Station, TX 77840</div>
+                              <div class="details"><a href="/texas/87-college">Restaurant Details</a>
+                              </div>
+                          </div>
+                          <div class="cta">
+                              <a href="https://www.google.com/maps/dir//Pei+Wei,+980+University+Dr+E+%234,+College+Station,+TX+77840/@30.6351478,-96.325074,17z/" target="_blank">
+                                  <button class="directions">DIRECTIONS</button>
+                              </a>
+                              <div class="orderByPhone">ORDER BY PHONE</div>
+                              <div class="phone"><a href="tel:+1-979-260-1209">(979) 260-1209</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                  <li id="store-100">
+                      <div class="singleLocation clearfix">
+                          <div class="info">
+                              <div class="noodleman"></div>
+                              <div class="storename">Kirkwood</div>
+                              <div class="address">14008 Memorial Dr. Suite A
+                                  <br>Houston, TX 77079</div>
+                              <div class="details"><a href="/texas/100-kirkwood">Restaurant Details</a>
+                              </div>
+                          </div>
+                          <div class="cta">
+                              <a href="https://www.google.com/maps/dir//Pei+Wei,+14008+Memorial+Dr+A,+Houston,+TX+77079/@29.7714944,-95.5927357,17z/" target="_blank">
+                                  <button class="directions">DIRECTIONS</button>
+                              </a>
+                              <div class="orderByPhone">ORDER BY PHONE</div>
+                              <div class="phone"><a href="tel:+1-281-506-3500">(281) 506-3500</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                  <li id="store-120">
+                      <div class="singleLocation clearfix">
+                          <div class="info">
+                              <div class="noodleman"></div>
+                              <div class="storename">Houston</div>
+                              <div class="address">1413 S Voss Rd. Suite A
+                                  <br>Houston, TX 77057</div>
+                              <div class="details"><a href="/texas/120-houston">Restaurant Details</a>
+                              </div>
+                          </div>
+                          <div class="cta">
+                              <a href="https://www.google.com/maps/dir//Pei+Wei,+1413+S+Voss+Rd+A,+Houston,+TX+77057/@29.7517959,-95.5027201,17z/" target="_blank">
+                                  <button class="directions">DIRECTIONS</button>
+                              </a>
+                              <div class="orderByPhone">ORDER BY PHONE</div>
+                              <div class="phone"><a href="tel:+1-713-785-1620">(713) 785-1620</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                  <li id="store-272">
+                      <div class="singleLocation clearfix">
+                          <div class="info">
+                              <div class="noodleman"></div>
+                              <div class="storename">Southpark at Cinco Ranch</div>
+                              <div class="address">24926 FM 1093, Ste. A
+                                  <br>Katy, TX 77494</div>
+                              <div class="details"><a href="/texas/272-southpark">Restaurant Details</a>
+                              </div>
+                          </div>
+                          <div class="cta">
+                              <a href="https://www.google.com/maps/dir//Pei+Wei,+24926+Farm+to+Market+1093+a,+Katy,+TX+77494/@29.6981484,-95.8113739,17z/" target="_blank">
+                                  <button class="directions">DIRECTIONS</button>
+                              </a>
+                              <div class="orderByPhone">ORDER BY PHONE</div>
+                              <div class="phone"><a href="tel:+1-281-665-6030">(281) 665-6030</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -133,12 +538,101 @@
           </p>
         </section>
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript">
+
+          function initMap() {
+          var center = {lat: 29.879262, lng: -95.439467};
+          var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 9,
+          center: center
+          });
+
+          var locations = [
+          ['<strong>Shenandoah</strong><br />','19075 IH 45 S Suite 480<br />Shenandoah, TX 77385', 30.182579,-95.451, '31'],
+          ['<strong>Champions</strong><br />', '5203 FM 1960 W Suite E<br />Houston, TX 77069', 29.9581512,-95.7015311, '33'],
+          ['<strong>Kingwood</strong><br />', '702 Kingwood Dr.<br />Kingwood, TX 77339', 30.0507603,-95.2474481, '50'],
+          ['<strong>Windermere</strong><br />', '12020 FM 1960 W<br />Houston, TX 77065', 29.9246631,-95.6009009, '59'],
+          ['<strong>The Woodlands</strong><br />', '10868 Kuykendahl Rd. Suite E<br />The Woodlands, TX 77381', 30.1755237,-95.5377794, '242'],
+          ['<strong>Vintage Marketplace</strong><br />', '10115 Louetta Road, Suite 100<br />Houston, TX 77070', 29.999963,-95.5641535, '266'],
+          ['<strong>Fairfield Town Center</strong><br />', '28902 Highway 290, Suite J-05<br />Cypress, TX 77433', 29.9928375,-95.7526516, '270'],
+          ['<strong>Central Houston</strong><br />', '1005 Waugh Dr. Suite A<br />Houston, TX 77019', 29.7564325,-95.3998954, '54'],
+          ['<strong>Clearlake</strong><br />', '19411-A Gulf Freeway<br />Webster, TX 77598', 29.5423568,-95.1424782, '58'],
+          ['<strong>Town Center Pearland</strong><br />', '11302 Broadway Suite 102<br />Pearland, TX 77584', 29.5551389,-95.3969178, '175'],
+          ['<strong>Beaumont</strong><br />', '3050 Dowlen Rd. Suite N<br />Beaumont, TX 77706', 30.1072119,-94.1699546, '177'],
+          ['<strong>Pasadena</strong><br />', '5932 Fairmont Pkwy. Suite 150<br />Pasadena, TX 77505', 29.6491396,-95.1534339, '205'],
+          ['<strong>Pearland Parkway</strong><br />', '2630 Pearland Parkway, Suite 130<br />Pearland, TX 77581', 29.559,-95.2619005, '265'],
+          ['<strong>Plaza in the Park</strong><br />', '5110 Buffalo Speedway Suite 100<br />Houston, TX 77005', 29.7278523,-95.4313008, '24'],
+          ['<strong>Sugar Land</strong><br />', '16101 Kensington Dr.<br />Sugar Land, TX 77479', 29.5982158,-95.6280974, '37'],
+          ['<strong>Katy</strong><br />', '1590 S Mason Rd. Suite A<br />Katy, TX 77450', 29.7589217,-95.7541195, '56'],
+          ['<strong>College Station</strong><br />', '980A University Dr. East Suite 4<br />College Station, TX 77840', 30.6351478,-96.325074, '87'],
+          ['<strong>Kirkwood</strong><br />', '14008 Memorial Dr. Suite A<br />Houston, TX 77079', 29.7714944,-95.5927357, '100'],
+          ['<strong>Houston</strong><br />', '1413 S Voss Rd. Suite A<br />Houston, TX 77057', 29.7517959,-95.5027201, '120'],
+          ['<strong>Southpark at Cinco Ranch</strong><br />', '24926 FM 1093, Ste. A<br />Katy, TX 77494', 29.6981484,-95.8113739, '272']
+          ];
+
+          var infowindow = new google.maps.InfoWindow();
+
+          var marker, i;
+
+          var image = {
+          url: 'https://mediaprodpeiwei.blob.core.windows.net/contentimg/5-dollar-lunch/img/loc-icon.png',
+          size: new google.maps.Size(30, 30),
+          origin: new google.maps.Point(0, 0),
+          anchor: new google.maps.Point(0, 0)
+          };
+
+          for (i = 0; i < locations.length; i++) {
+          marker = new google.maps.Marker({
+          position: new google.maps.LatLng(locations[i][2], locations[i][3]),
+          id: 'icon'+locations[i][4],
+          icon: image,
+          map: map
+          });
+
+          google.maps.event.addListener(marker, 'click', (function(marker, i) {
+          return function() {
+          infowindow.setContent(locations[i][0] + locations[i][1]);
+          infowindow.open(map, marker);
+          var storeNum = locations[i][4];
+
+          var currentStore = $('[id=store-' + storeNum +']');
+          var currentStoreIcon = $('[id=store-' + storeNum +']' + ' > div > .info > .noodleman');
+
+          $('.list').animate({
+          scrollTop: $('.list').scrollTop() + currentStore.offset().top - 3500
+          },500);
+
+          currentStoreIcon.addClass("selectedIcon");
+
+          console.log($('.list').scrollTop() + currentStore.offset().top);
+          console.log(currentStore.offset().top)
+          return false;
+          }
+          })(marker, i));
+          google.maps.event.addListener(marker, 'click', (function(marker, i) {
+          return function() {
+          var storeNum = locations[i][4];
+
+          var currentStore = $('[id=store-' + storeNum +']');
+          var currentStoreIcon = $('[id=store-' + storeNum +']' + ' > div > .info > .noodleman');
+
+          $("div.selectedIcon").removeClass("selectedIcon");
+          currentStoreIcon.addClass("selectedIcon")
+          }
+          })(marker, i));
+          }
+          }
+
+          google.maps.event.addDomListener(window, "load", initMap);
+
+        </script>
+
+        <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/main.js"></script>
         <script src="js/map.js"></script>
         <script async defer
           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWdL5jOUZyI2IQKG-XO28dl96vtkATY7s&callback=initMap">
-        </script>
-    </body>
-</html>
+        </script> -->
+    <!-- </body>
+</html> -->
